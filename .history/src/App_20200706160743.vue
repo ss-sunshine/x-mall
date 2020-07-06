@@ -24,8 +24,6 @@ export default {
       })
     }
   }
-  // inject: ["reload"],  写在name上面
-  // this.reload()   调用自动刷新当前页面
 }
 </script>
 
