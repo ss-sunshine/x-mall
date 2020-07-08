@@ -1,0 +1,62 @@
+.top {
+    height: 100px;
+    background: rgb(5, 5, 5);
+
+    .T_content {
+        width: 1200px;
+
+        .logo {
+            width: 50px;
+            margin-top: 10px;
+        }
+
+        .T_right{
+            .p-lr-25{
+                padding: 0 25px;
+            }
+            .m-lr-25{
+                margin: 0 25px;
+            }
+            .T_font-one{
+                color: #c8c8c8;
+                &:hover{
+                    color: white;
+                    cursor: pointer;
+                }
+            }
+            .T_line{
+                width: 1px;
+                height: 12px;
+                background: rgba(102, 102, 102, 0.7);
+            }
+            .T-cart:hover{
+                color: #cccccc !important;
+                // .icon:hover{
+                //     color: #cccccc !important;
+                // }
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.bottom {
+    height: 90px;
+    background: rgb(247, 247, 247);
+    .B_content{
+        width: 1200px;
+        .srot{
+            width: 2px;
+            height: 2px;
+            border-radius: 50%;
+            background: #666;
+        }
+        .B_nav{
+            color: #666;
+            &:hover{
+                color: #5683ea;
+                cursor: pointer;
+            }
+        }
+    }
+}

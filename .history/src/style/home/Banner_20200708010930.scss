@@ -1,0 +1,34 @@
+.image{
+    width: 1220px;
+    height: 500px;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+// img{
+//     width: 100%;
+//     // height: 100%;
+// }
+.image1{
+    width: 100%;
+    height: 500px;
+}
+.image2{
+    height: 500px;
+    width: 100%;
+    bottom: 520px;
+    z-index: 9999;
+}
+.image3{
+    z-index: 98;
+    bottom: 1000px;
+}
+.A{
+    width: 15px;
+    height: 15px;
+    background: rgb(75,74,77);
+    border-radius: 50%;
+    z-index: 100;
+    bottom: 30px;
+    margin-left: 50%;
+    left: 610px;
+}
