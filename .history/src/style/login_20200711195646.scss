@@ -1,0 +1,76 @@
+.registered{
+    width: 450px;
+    background: linear-gradient(to bottom,white,rgb(239,239,239));
+    border: 1px solid #dadada;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.16);
+    .login{
+        height: 80px;
+        width: 80px;
+    }
+    .title{
+        height: 60px;
+        color: rgb(102,102,102);
+        border-bottom: 1px solid #dadada;
+    }
+    .bored_bottom{
+        border-bottom: 1px solid #dadada;
+        padding-bottom: 5px;
+        margin: 40px 40px 30px 40px;
+        .check{
+            color: #999;
+        }
+        .ps{
+            color: #5079d9;
+        }
+        .registered_btn{
+            height: 50px;
+                background-color: rgb(178,178,178);
+                color: white;
+        }
+        .registered_btn1{
+            height: 50px;
+        }
+        .registered_btn2{
+            height: 50px;
+            margin-top: -15px;
+        }
+    }
+    .ps_bottom{
+        color: #999;
+        .ps{
+            color: #5079d9;
+            text-decoration-line: underline;
+            cursor: pointer;
+        }
+    }
+}
+.vaptcha-init-main {
+    display: table;
+    width: 100%;
+    height: 100%;
+    background-color: #EEEEEE;
+  }
+  
+  .vaptcha-init-loading {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center
+  }
+  
+  .vaptcha-init-loading>a {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+  }
+  
+  .vaptcha-init-loading>a img {
+    vertical-align: middle
+  }
+  
+  .vaptcha-init-loading .vaptcha-text {
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #CCCCCC;
+    vertical-align: middle
+  }

@@ -1,0 +1,31 @@
+.background{
+    background: url("../../assets/bg_9b9dcb65ff.jpg");
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+.registered{
+    width: 450px;
+    height: 570px;
+    background: linear-gradient(to bottom,white,rgb(239,239,239));
+    border: 1px solid #dadada;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.16);
+    .title{
+        height: 60px;
+        color: rgb(102,102,102);
+        border-bottom: 1px solid #dadada;
+    }
+    .ipt{
+        // height: 50px;
+        padding: 10px 15px;
+    }
+    .registered_btn{
+        height: 50px;
+            background-color: rgb(178,178,178);
+            color: white;
+    }
+    .registered_btn1{
+        height: 50px;
+    }
+}
