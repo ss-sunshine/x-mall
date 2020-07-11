@@ -1,0 +1,137 @@
+.top {
+    height: 60px;
+    color: #999;
+
+    .T_item:hover {
+        color: #5683ea;
+        cursor: pointer;
+    }
+
+    .T_item_hover {
+        color: #5683ea;
+    }
+
+    .less {
+        margin: 0 4px;
+    }
+
+    .ipt {
+        text-align: center;
+        // border: none;
+        outline: none;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        width: 80px;
+        height: 30px;
+        background: none;
+    }
+
+    // number类型取消上下箭头
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+    }
+
+    input[type="number"] {
+        -moz-appearance: textfield;
+    }
+
+    //设置默认输入内容颜色
+    input::-webkit-input-placeholder {
+        color: rgb(190, 190, 190);
+    }
+
+    input:-moz-placeholder {
+        color: rgb(190, 190, 190);
+    }
+
+    input::-moz-placeholder {
+        color: rgb(190, 190, 190);
+    }
+
+    input:-ms-input-placeholder {
+        color: rgb(190, 190, 190);
+    }
+
+    .determine {
+        width: 80px;
+        height: 30px;
+        background: rgb(91, 131, 227);
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+
+        &:hover {
+            background: rgb(95, 128, 206);
+        }
+    }
+}
+
+.content {
+    .w25{
+        width: 25%;
+    }
+    .banner1 {
+        height: 430px;
+        background: white;
+        // width: 25%;
+    }
+
+    .image2 {
+        height: 206px;
+    }
+    .productName{
+        line-height: 1.2;
+    }
+    .subTitle {
+        color: #d0d0d0;
+    }
+
+    .salePrice {
+        line-height: 30px;
+        color: #d44d44;
+    }
+
+    .btn1 {
+        width: 100px;
+        height: 30px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 4px;
+        margin: 0 5px;
+
+        &:hover {
+            cursor: pointer;
+            background: rgb(241, 241, 241);
+        }
+    }
+
+    .btn {
+        background: rgb(95, 134, 228);
+        width: 100px;
+        height: 30px;
+        border-radius: 4px;
+        margin: 0 5px;
+
+        &:hover {
+            cursor: pointer;
+            background: rgb(96, 128, 206);
+        }
+    }
+
+    .H_item_hover {
+        cursor: pointer;
+        transition-property: all;
+        transition-duration: 0.6s;
+        transition-timing-function: ease;
+        transition-delay: 0s;
+        box-shadow: 0 0 16px rgba(0, 0, 0, 0.3);
+        transForm: translateY(-4px);
+    }
+    .Page{
+        float: right;
+        margin-top: 60px;
+        .num{
+            margin: 0 4px;
+        }
+    }
+}

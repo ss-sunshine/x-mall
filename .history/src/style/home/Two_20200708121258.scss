@@ -1,0 +1,37 @@
+
+.H_item {
+  // width: 610px;
+  height: 430px;
+  background: white;
+  &:hover{
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transForm:translateY(-4px);
+    cursor: crosshair;
+  }
+}
+.H_item_left{
+  border-bottom-left-radius: 6px;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.H_item_right{
+  border-bottom-right-radius: 6px;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+img {
+  height: 206px;
+}
+
+.subTitle {
+  color: #d0d0d0;
+}
+
+.salePrice {
+  line-height: 30px;
+  color: #d44d44;
+}

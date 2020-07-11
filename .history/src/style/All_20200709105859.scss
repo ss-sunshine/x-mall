@@ -1,0 +1,45 @@
+.top{
+    height: 60px;
+    color: #999;
+    .T_item:hover{
+        color: #5683ea;
+        cursor: pointer;
+    }
+    .T_item_hover{
+        color: #5683ea;
+    }
+    .less{
+        margin: 0 4px;
+    }
+    .ipt{
+        text-align: center;
+        // border: none;
+        outline: none;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        width: 78px;
+        height: 28px;
+        background: none;
+    }
+    // number类型取消上下箭头
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+    }
+    input[type="number"]{
+        -moz-appearance: textfield;
+    }
+    //设置默认输入内容颜色
+    input::-webkit-input-placeholder{
+        color: rgb(190, 190, 190);
+    }
+    input:-moz-placeholder{
+        color: rgb(190, 190, 190);
+    }
+    input::-moz-placeholder{
+        color: rgb(190, 190, 190);
+    }
+    input:-ms-input-placeholder{
+        color: rgb(190, 190, 190);
+    }
+}

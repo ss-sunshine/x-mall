@@ -1,0 +1,104 @@
+.detail_top{
+    padding: 60px;
+    background: white;
+    border-radius: 6px;
+    border: 1px solid #dcdcdc;
+}
+.detail_img{
+    width: 80px;
+    height: 80px;
+    padding: 12px;
+    border: 1px solid rgba(0,0,0,.06);
+    border-radius: 5px;
+    cursor: pointer;
+    .detail_image{
+        width: 100%;
+    }
+}
+.detail_img_hover{
+    border: 3px solid rgb(204,204,204);
+}
+.detail_banner{
+    width: 440px;
+    .detailBanner{
+        width: 100%;
+    }
+}
+.border_bottom_top{
+    border-bottom: 1px solid #dcdcdc;
+    padding: 0 10px 16px 10px;
+    width: 450px;
+}
+.border_bottom_bottom{
+    border-bottom: 1px solid #dcdcdc;
+    padding: 30px 10px 16px 10px;
+    width: 450px;
+    .less{
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        border: 1px solid rgba(0,0,0,.06);
+        box-shadow: 0 0 10px rgba(0,0,0,.12);
+        cursor: pointer;
+        .line{
+            width:8px;
+            height: 2px;
+            background: rgba(0,0,0,.2);
+        }
+    }
+    .num{
+        width: 40px;
+    }
+    .ipt{
+        border: none;
+        outline: none;
+        width: 40px;
+    }
+    .plus{
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        border: 1px solid rgba(0,0,0,.06);
+        box-shadow: 0 0 10px rgba(0,0,0,.35);
+        color: rgba(0,0,0,.6);
+        cursor: pointer;
+    }
+}
+.productName{
+    margin-bottom: 12px;
+    line-height: 1.25;
+}
+.subTitle{
+    line-height: 1.5;
+    color: #bdbdbd;
+}
+.salePrice{
+    color: #d44d44;
+    line-height: 20px;
+}
+.addShopping{
+    width: 145px;
+    height: 50px;
+    background: rgb(89,129,226);
+    border-radius: 4px;
+    &:hover{
+        background: rgb(92,125,204);
+    }
+}
+.now{
+    width: 145px;
+    height: 50px;
+    background: rgb(251,251,251);
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    color: #646464;
+    &:hover{
+        background: rgb(240,240,240);
+    }
+}
+.box{
+    width: 1222px;
+    border: 1px solid rgba(0,0,0,.12);
+    background: white;
+    border-radius: 6px;
+}

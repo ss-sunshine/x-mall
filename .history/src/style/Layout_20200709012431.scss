@@ -1,0 +1,226 @@
+.top {
+    height: 100px;
+    background: rgb(5, 5, 5);
+
+    .T_content {
+        width: 1220px;
+
+        .logo {
+            width: 50px;
+            margin-top: 10px;
+        }
+        .T_search_item{
+            width: 305px;
+            padding: 0 10px;
+            box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+            background: white;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+            border-radius: 0 0 4px 4px;
+            position: absolute;
+            top: 36px;
+        }
+        .T_right {
+            .p-lr-25 {
+                padding: 0 25px;
+            }
+
+            .m-lr-25 {
+                margin: 0 25px;
+            }
+
+            .T_font-one {
+                color: #c8c8c8;
+
+                &:hover {
+                    color: white;
+                    cursor: pointer;
+                }
+            }
+
+            .T_line {
+                width: 1px;
+                height: 12px;
+                background: rgba(102, 102, 102, 0.7);
+            }
+
+            .icon {
+                &:hover {
+                    color: #cccccc !important;
+                    cursor: pointer;
+                }
+            }
+
+            .cart_content {
+                padding: 100px 0;
+            }
+
+            .T-cart {
+                cursor: pointer;
+
+                .md-cart {
+                    color: #cccccc !important;
+                }
+
+                .T_count {
+                    width: 20px;
+                    height: 20px;
+                    background: rgb(237, 64, 20);
+                    border-radius: 50%;
+                    margin-left: 4px;
+                }
+            }
+        }
+    }
+}
+
+.bottom {
+    height: 90px;
+    background: rgb(247, 247, 247);
+
+    .B_content {
+        width: 1220px;
+
+        .srot {
+            width: 2px;
+            height: 2px;
+            border-radius: 50%;
+            background: #666;
+        }
+
+        .B_nav {
+            color: #666;
+
+            &:hover {
+                color: #5683ea;
+                cursor: pointer;
+            }
+        }
+    }
+}
+.p-r-25{
+    padding-right: 25px;
+}
+.nav_two {
+    width: 100%;
+    height: 60px;
+    background: rgb(247, 247, 247);
+    position: fixed;
+    z-index: 100;
+
+    .B_content {
+        width: 1220px;
+
+        .srot {
+            width: 2px;
+            height: 2px;
+            border-radius: 50%;
+            background: #666;
+        }
+
+        .B_nav {
+            color: #666;
+
+            &:hover {
+                color: #5683ea;
+                cursor: pointer;
+            }
+        }
+        .iconItem {
+            &:hover {
+                color: rgb(105,105,105) !important;
+                cursor: pointer;
+            }
+        }
+    
+        .cart_content {
+            padding: 100px 0;
+        }
+    
+        .T-cart {
+            cursor: pointer;
+    
+            .md-cart {
+                color: rgb(105,105,105) !important;
+            }
+    
+            .T_count {
+                width: 20px;
+                height: 20px;
+                background: rgb(237, 64, 20);
+                border-radius: 50%;
+                margin-left: 4px;
+            }
+        }
+    }
+}
+
+.foot {
+    height: 350px;
+    background: rgb(250, 250, 250);
+
+    .F_content {
+        width: 1220px;
+
+        .F_content_top {
+            padding: 40px 0;
+            border-bottom: 1px solid #e6e6e6;
+
+            .F_title {
+                color: #646464;
+                padding: 0 100px 14px 0;
+            }
+
+            .F_title_item {
+                color: #969696;
+                padding: 4px 0;
+                cursor: pointer;
+            }
+
+            .F_content_right {
+                text-align: right;
+
+                .F_content_right_one {
+                    color: #646464;
+                    font-size: 30px;
+                    line-height: 1;
+                }
+
+                .F_content_right_two {
+                    color: #c3c3c3;
+                    width: 240px;
+                    line-height: 18px;
+                    margin-top: 5px;
+                }
+
+                .F_content_right_three {
+                    border: 1px solid #dcdcdc;
+                    color: #5079d9;
+                    margin-top: 8px;
+                    width: 130px;
+                    height: 34px;
+                    float: right;
+                    border-radius: 4px;
+
+                    &:hover {
+                        background: rgb(242, 242, 242);
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+
+        .F_content_bottom {
+            .F_content_bottom_item {
+                color: #5079d9;
+                cursor: pointer;
+                padding: 0 10px;
+                border-left: 1px solid #ccc;
+                line-height: 12px;
+            }
+
+            .F_content_bottom_item_bottom {
+                color: #bdbdbd;
+            }
+        }
+    }
+}

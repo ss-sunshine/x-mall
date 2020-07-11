@@ -1,0 +1,80 @@
+
+.H_item {
+  // width: 610px;
+  height: 430px;
+  background: white;
+  cursor: pointer;
+  // &:hover{
+  //   transition-property: all;
+  //   transition-duration: 0.5s;
+  //   transition-timing-function: ease;
+  //   transition-delay: 0s;
+  //   box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2);
+  //   transForm:translateY(-4px);
+  // }
+}
+.H_item_hover_left{
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+  box-shadow: 8px 2px 10px rgba(0, 0, 0, 0.2);
+  transForm:translateY(-4px);
+}
+.H_item_hover_right{
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+  box-shadow: -8px 2px 10px rgba(0, 0, 0, 0.2);
+  transForm:translateY(-4px);
+}
+.H_item_left{
+  border-bottom-left-radius: 6px;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.H_item_right{
+  border-bottom-right-radius: 6px;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+img {
+  height: 206px;
+}
+
+.subTitle {
+  color: #d0d0d0;
+}
+
+.salePrice {
+  line-height: 30px;
+  color: #d44d44;
+}
+.btn1{
+  width: 100px;
+  height: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin: 0 5px;
+  color: black;
+  &:hover{
+    cursor: pointer;
+    background: rgb(241,241,241);
+  }
+}
+.btn{
+  background: rgb(95,134,228);
+  width: 100px;
+  height: 30px;
+  border-radius: 4px;
+  margin: 0 5px;
+  &:hover{
+    cursor: pointer;
+    background: rgb(96,128,206);
+  }
+}
+.btn_block{
+  display: none;
+}
